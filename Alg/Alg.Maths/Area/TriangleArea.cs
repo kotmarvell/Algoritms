@@ -34,7 +34,5 @@ namespace Alg.Maths.Area
 
             return area;
         }
-
-
     }
 }
