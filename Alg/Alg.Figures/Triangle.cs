@@ -10,12 +10,20 @@ namespace Alg.Figures
         public double sideC { get; set; }
         public double height { get; set; }
 
-        public Triangle(double a = 0, double b = 0, double c = 0, double h = 0)
+        public Triangle(double a = 0, double b = 0, double c = 0)
         {
             sideA = a;
             sideB = b;
             sideC = c;
-            height = h;
+            height = GetHeight();
+        }
+
+        public double GetHeight()
+        {
+            double area = TriangleArea.AreaOnThreeSides(sideA, sideB, sideC);
+            double hight = area / (0.5 * sideA);
+
+            return hight;
         }
 
         /// <summary>
@@ -25,14 +33,9 @@ namespace Alg.Figures
         /// <returns></returns>
         public double GetTriangleArea()
         {
-            if (height != 0)
+            if (height != 0 && sideA != 0)
             {
-                if (sideA != 0)
-                    return TriangleArea.AreaThroughHeight(sideA, height);
-                else if (sideB != 0)
-                    return TriangleArea.AreaThroughHeight(sideB, height);
-                else
-                    return TriangleArea.AreaThroughHeight(sideC, height);
+                return TriangleArea.AreaThroughHeight(sideA, height);
             }
             else
                 return TriangleArea.AreaOnThreeSides(sideA, sideB, sideC);
@@ -48,5 +51,32 @@ namespace Alg.Figures
         {
             return TrianglePerimetr.HalfPerimetr(sideA, sideB, sideC);
         }
+
+        public bool IsEquilateralTriangle()
+        {
+            if(sideA == sideB && sideB == sideC && sideC != 0)
+                return true;
+            else
+                return false;
+        }
+
+        public bool IsRightTriangle()
+        {
+            if (IsTrue(sideA, sideB, sideC) || IsTrue(sideB, sideC, sideA) || IsTrue(sideC, sideA, sideB))
+                return true;
+            else
+                return 
+                    false;
+  
+        }
+
+        private bool IsTrue(double cathetA, double cathetB, double hypotenuse)
+        {
+            if ((cathetA * cathetA + cathetB * cathetB )== hypotenuse * hypotenuse)
+                return true;
+            else
+                return false;
+        }
+
     }
 }
