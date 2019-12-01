@@ -5,7 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="QuickSort\" />
+    <Compile Remove="QuickSort\**" />
+    <EmbeddedResource Remove="QuickSort\**" />
+    <None Remove="QuickSort\**" />
   </ItemGroup>
 
 </Project>

@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Alg.Figures
 {
-    public class Circle
+    public class Circle : Figure
     {
         public double R { get; set; }
         public double D { get; set; }
@@ -25,7 +25,7 @@ namespace Alg.Figures
         /// что дано
         /// </summary>
         /// <returns></returns>
-        public double AreaCircle()
+        public override double GetArea()
         {
             if (D != 0)
                 return CircleArea.CircleAreaForD(D);
