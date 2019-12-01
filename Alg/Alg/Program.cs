@@ -14,8 +14,12 @@ namespace Alg
                 sideC = 8.0
             };
 
-            double area = myTriangle.GetTriangleArea();
-            Console.WriteLine(area);
+            double area = myTriangle.GetArea();
+            Console.WriteLine(area + " ");
+
+            Figure figure = myTriangle;
+            Console.WriteLine(figure.GetArea());
+
         }
     }
 }
