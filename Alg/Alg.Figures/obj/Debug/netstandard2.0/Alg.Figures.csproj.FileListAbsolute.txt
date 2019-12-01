@@ -7,3 +7,6 @@ C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Figures\obj\Debu
 C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Figures\obj\Debug\netstandard2.0\Alg.Figures.AssemblyInfo.cs
 C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Figures\obj\Debug\netstandard2.0\Alg.Figures.dll
 C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Figures\obj\Debug\netstandard2.0\Alg.Figures.pdb
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Figures\bin\Debug\netstandard2.0\Alg.Maths.dll
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Figures\bin\Debug\netstandard2.0\Alg.Maths.pdb
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Figures\obj\Debug\netstandard2.0\Alg.Figures.csproj.CopyComplete

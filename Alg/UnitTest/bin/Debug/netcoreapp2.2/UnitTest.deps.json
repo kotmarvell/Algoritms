@@ -1048,6 +1048,9 @@
         }
       },
       "Alg.Figures/1.0.0": {
+        "dependencies": {
+          "Alg.Maths": "1.0.0"
+        },
         "runtime": {
           "Alg.Figures.dll": {}
         }
