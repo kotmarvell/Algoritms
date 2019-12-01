@@ -31,7 +31,11 @@
         },
         "frameworks": {
           "netstandard2.0": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Пользователь\\Desktop\\git\\Algoritms\\Alg\\Alg.Maths\\Alg.Maths.csproj": {
+                "projectPath": "C:\\Users\\Пользователь\\Desktop\\git\\Algoritms\\Alg\\Alg.Maths\\Alg.Maths.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
