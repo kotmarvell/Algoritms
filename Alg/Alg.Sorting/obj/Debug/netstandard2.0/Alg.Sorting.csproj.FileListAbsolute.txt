@@ -1,0 +1,9 @@
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Sorting\bin\Debug\netstandard2.0\Alg.Sorting.deps.json
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Sorting\bin\Debug\netstandard2.0\Alg.Sorting.dll
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Sorting\bin\Debug\netstandard2.0\Alg.Sorting.pdb
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Sorting\obj\Debug\netstandard2.0\Alg.Sorting.csprojAssemblyReference.cache
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Sorting\obj\Debug\netstandard2.0\Alg.Sorting.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Sorting\obj\Debug\netstandard2.0\Alg.Sorting.AssemblyInfoInputs.cache
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Sorting\obj\Debug\netstandard2.0\Alg.Sorting.AssemblyInfo.cs
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Sorting\obj\Debug\netstandard2.0\Alg.Sorting.dll
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Sorting\obj\Debug\netstandard2.0\Alg.Sorting.pdb

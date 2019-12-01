@@ -1,0 +1,9 @@
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Figures\bin\Debug\netstandard2.0\Alg.Figures.deps.json
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Figures\bin\Debug\netstandard2.0\Alg.Figures.dll
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Figures\bin\Debug\netstandard2.0\Alg.Figures.pdb
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Figures\obj\Debug\netstandard2.0\Alg.Figures.csprojAssemblyReference.cache
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Figures\obj\Debug\netstandard2.0\Alg.Figures.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Figures\obj\Debug\netstandard2.0\Alg.Figures.AssemblyInfoInputs.cache
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Figures\obj\Debug\netstandard2.0\Alg.Figures.AssemblyInfo.cs
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Figures\obj\Debug\netstandard2.0\Alg.Figures.dll
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Figures\obj\Debug\netstandard2.0\Alg.Figures.pdb

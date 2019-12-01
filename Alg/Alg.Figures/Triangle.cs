@@ -16,12 +16,22 @@ namespace Alg.Figures
             height = h;
         }
 
-        public double TriangleArea()
+        public double GetTriangleArea()
         {
-            double p2 = (sideA + sideB + sideC) / 2;
+            double p2 = GetTriangleHalfPerimetr();
             double area = Math.Sqrt(p2 * (p2 - sideA) * (p2 - sideB) * (p2 - sideC));
 
             return area;
+        }
+
+        public double GetTrianglePerimetr()
+        {
+            return sideA + sideB + sideC;
+        }
+
+        public double GetTriangleHalfPerimetr()
+        {
+            return (sideA + sideB + sideC) / 2;
         }
     }
 }

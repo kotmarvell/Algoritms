@@ -1,0 +1,58 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "Alg/1.0.0": {
+        "dependencies": {
+          "Alg.Figures": "1.0.0",
+          "Alg.Maths": "1.0.0",
+          "Alg.Sorting": "1.0.0"
+        },
+        "runtime": {
+          "Alg.dll": {}
+        }
+      },
+      "Alg.Figures/1.0.0": {
+        "runtime": {
+          "Alg.Figures.dll": {}
+        }
+      },
+      "Alg.Maths/1.0.0": {
+        "runtime": {
+          "Alg.Maths.dll": {}
+        }
+      },
+      "Alg.Sorting/1.0.0": {
+        "runtime": {
+          "Alg.Sorting.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Alg/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Alg.Figures/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Alg.Maths/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Alg.Sorting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

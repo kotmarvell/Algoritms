@@ -9,10 +9,13 @@ namespace Alg
         {
             Triangle myTriangle = new Triangle
             {
-                sideA = 0.0,
-                sideB = 0.0,
-                sideC = 0.0
+                sideA = 8.0,
+                sideB = 8.0,
+                sideC = 8.0
             };
+
+            double area = myTriangle.GetTriangleArea();
+            Console.WriteLine(area);
         }
     }
 }
