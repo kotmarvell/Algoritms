@@ -1,4 +1,5 @@
 ﻿using System;
+using Alg.Figures;
 
 namespace Alg
 {
@@ -6,7 +7,12 @@ namespace Alg
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Triangle myTriangle = new Triangle
+            {
+                sideA = 0.0,
+                sideB = 0.0,
+                sideC = 0.0
+            };
         }
     }
 }

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Alg.Maths.Area
+namespace Alg.Maths.Perimetr
 {
-    public class BaseArea
+    public class BasePerimetr
     {
 
     }
