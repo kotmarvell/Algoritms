@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Alg.Maths.Area
 {
-    public class RectangleArea : BaseArea
+    public class RectangleArea
     {
 
     }

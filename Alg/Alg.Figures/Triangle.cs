@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Alg.Maths.Area;
+using Alg.Maths.Perimetr;
+using System;
 namespace Alg.Figures
 {
     public class Triangle
@@ -16,22 +18,35 @@ namespace Alg.Figures
             height = h;
         }
 
+        /// <summary>
+        /// Если высота задана, то находим по высоте и заданной стороне
+        /// Если высота не задана, то по трем сторонам
+        /// </summary>
+        /// <returns></returns>
         public double GetTriangleArea()
         {
-            double p2 = GetTriangleHalfPerimetr();
-            double area = Math.Sqrt(p2 * (p2 - sideA) * (p2 - sideB) * (p2 - sideC));
-
-            return area;
+            if (height != 0)
+            {
+                if (sideA != 0)
+                    return TriangleArea.AreaThroughHeight(sideA, height);
+                else if (sideB != 0)
+                    return TriangleArea.AreaThroughHeight(sideB, height);
+                else
+                    return TriangleArea.AreaThroughHeight(sideC, height);
+            }
+            else
+                return TriangleArea.AreaOnThreeSides(sideA, sideB, sideC);
+            
         }
 
         public double GetTrianglePerimetr()
         {
-            return sideA + sideB + sideC;
+            return TrianglePerimetr.Perimetr(sideA, sideB, sideC);
         }
 
         public double GetTriangleHalfPerimetr()
         {
-            return (sideA + sideB + sideC) / 2;
+            return TrianglePerimetr.HalfPerimetr(sideA, sideB, sideC);
         }
     }
 }
