@@ -1,0 +1,9 @@
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Maths\bin\Debug\netstandard2.0\Alg.Maths.deps.json
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Maths\bin\Debug\netstandard2.0\Alg.Maths.dll
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Maths\bin\Debug\netstandard2.0\Alg.Maths.pdb
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Maths\obj\Debug\netstandard2.0\Alg.Maths.csprojAssemblyReference.cache
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Maths\obj\Debug\netstandard2.0\Alg.Maths.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Maths\obj\Debug\netstandard2.0\Alg.Maths.AssemblyInfoInputs.cache
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Maths\obj\Debug\netstandard2.0\Alg.Maths.AssemblyInfo.cs
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Maths\obj\Debug\netstandard2.0\Alg.Maths.dll
+C:\Users\Пользователь\Desktop\git\Algoritms\Alg\Alg.Maths\obj\Debug\netstandard2.0\Alg.Maths.pdb

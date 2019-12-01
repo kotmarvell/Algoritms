@@ -6,5 +6,6 @@ namespace Alg.Maths.Area
 {
     public class BaseArea
     {
+
     }
 }
